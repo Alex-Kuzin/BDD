@@ -37,7 +37,7 @@ class MoneyTransferTest {
         assertEquals(expectedBalanceFirstCard, actualBalanceFirstCard);
         assertEquals(expectedBalanceSecondCard, actualBalanceSecondCard);
     }
-    /*@Test
+    @Test
     void shouldGetErrorMessageIfAmountMoreBalance() {
         var firstCardInfo = getFirstCardInfo();
         var secondCardInfo = getSecondCardInfo();
@@ -53,5 +53,5 @@ class MoneyTransferTest {
         var actualBalanceSecondCard = dashboardPage.getCardBalance(secondCardInfo);
         assertEquals(expectedBalanceFirstCard, actualBalanceFirstCard);
         assertEquals(expectedBalanceSecondCard, actualBalanceSecondCard);
-    }*/
+    }
 }
